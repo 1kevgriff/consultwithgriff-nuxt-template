@@ -1,9 +1,11 @@
-import { defineTheme, palette } from 'pinceau'
-
-const primary = palette('#0070f3')
+import { defineTheme } from 'pinceau'
 
 export default defineTheme({
   colors: {
-    primary
+    primary: {
+      main: "#0070f3",
+      light: "#3291ff",
+      dark: "#0366d6"
+    },
   },
 })
